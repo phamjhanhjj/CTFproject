@@ -37,9 +37,5 @@ namespace CTFproject
         private void register_bt_Click(object sender, RoutedEventArgs e)
         {
         }
-
-        {
-
-        }
     }
 }
