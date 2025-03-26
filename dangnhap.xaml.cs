@@ -36,6 +36,19 @@ namespace CTFproject
 
         private void register_bt_Click(object sender, RoutedEventArgs e)
         {
+            dangky registrationWindow = new dangky();
+            Window window = new Window
+            {
+                Content = registrationWindow,
+                Title = "Registration"
+            };
+            window.Show();
+            this.Hide();
+        }
+
+        private void forgot_bt_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
