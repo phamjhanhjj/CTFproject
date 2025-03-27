@@ -37,8 +37,17 @@ namespace CTFproject
 
         private void login_bt_Click(object sender, RoutedEventArgs e)
         {
-            var dangnhap = new dangnhap();
-            dangnhap.Show();
+            Dispatcher.BeginInvoke(new Action(() =>
+            {
+                var loginWindow = new dangnhap
+                {
+                    Title = "Login"
+                };
+                loginWindow.Show();
+                Window.GetWindow(this)?.Close();
+            }));
         }
+
+
     }
 }

@@ -31,20 +31,38 @@ namespace CTFproject
 
         private void login_bt_Click(object sender, RoutedEventArgs e)
         {
-
+            var homeWindow = new home
+            {
+                Title = "Home"
+            };
+            homeWindow.Show();
+            this.Hide();
         }
+
+
+        //private void register_bt_Click(object sender, RoutedEventArgs e)
+        //{
+        //    dangky registrationWindow = new dangky();
+        //    Window window = new Window
+        //    {
+        //        Content = registrationWindow,
+        //        Title = "Registration"
+        //    };
+        //    window.Show();
+        //    this.Hide();
+        //}
 
         private void register_bt_Click(object sender, RoutedEventArgs e)
         {
-            dangky registrationWindow = new dangky();
-            Window window = new Window
+            var registrationWindow = new Window
             {
-                Content = registrationWindow,
+                Content = new dangky(),
                 Title = "Registration"
             };
-            window.Show();
+            registrationWindow.Show();
             this.Hide();
         }
+
 
         private void forgot_bt_Click(object sender, RoutedEventArgs e)
         {
