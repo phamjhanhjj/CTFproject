@@ -23,5 +23,35 @@ namespace CTFproject
         {
             InitializeComponent();
         }
+
+        private void rules_bt_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void home_bt_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void teams_bt_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void scoreboard_bt_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void challenges_bt_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void logout_bt_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
