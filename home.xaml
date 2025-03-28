@@ -15,7 +15,6 @@
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                     <Button x:Name="home_bt" Content="Home" Height="44" Width="93" Background="#FFD700" FontWeight="Bold" Click="home_bt_Click"/>
                     <Button x:Name="rules_bt" Content="Rules" Height="44" Width="93" Margin="10,0,0,0" Background="#FFFFFF" Click="rules_bt_Click"/>
-                    <Button x:Name="teams_bt" Content="Teams" Height="44" Width="93" Margin="10,0,0,0" Background="#FFFFFF" Click="teams_bt_Click"/>
                     <Button x:Name="scoreboard_bt" Content="Scoreboard" Height="44" Width="93" Margin="10,0,0,0" Background="#FFFFFF" Click="scoreboard_bt_Click"/>
                     <Button x:Name="challenges_bt" Content="Challenges" Height="44" Width="93" Margin="10,0,0,0" Background="#FFFFFF" Click="challenges_bt_Click"/>
                 </StackPanel>
